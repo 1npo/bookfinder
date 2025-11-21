@@ -40,7 +40,6 @@ pub fn main() !void {
 
         if (bot.is_online and !bot.in_channel) {
             try bot.join();
-            // bot.search("leviathan wakes james corey");
         }
     }
 
